@@ -4,11 +4,12 @@ Render math formulas via MS Word
 
 ## Build
 
-    > msbuild
+    > MSBuild.exe .\MathEquationsViaWord.sln
 
 ## Example
 
-    http://localhost:3482/E=MC^2
+to run via web open [http://localhost:3482/E=MC^2](http://localhost:3482/E=MC^2)
+or on command line `.\bin\Debug\Eq2Png.exe e=mc^2`
 
 
 ## License

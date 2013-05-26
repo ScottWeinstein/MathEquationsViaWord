@@ -52,11 +52,6 @@ namespace MathEquationsViaWord.Controllers
             _wordApp = null;
             System.IO.File.Delete(_saveName);
             System.IO.File.Delete(_extractPath);
-            //for (int i = 0; i < 2; i++)
-            //{
-            //    GC.Collect();
-            //    GC.WaitForPendingFinalizers();
-            //}
         }
     }
 }
